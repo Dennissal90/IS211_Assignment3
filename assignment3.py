@@ -38,7 +38,7 @@ def process_weblog(file_name):
 
     return image_hit_percentage, most_popular_browser, sorted_hourly_hits
 
-file_name = 'weblog.csv' # Assuming the CSV file is in the same directory as this script
+file_name = 'weblog.csv'
 image_hit_percentage, most_popular_browser, sorted_hourly_hits = process_weblog(file_name)
 
 print(f"Image Hit Percentage: {image_hit_percentage}%")
